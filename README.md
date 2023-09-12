@@ -20,7 +20,7 @@ This chatbot utilizes the `meta-llama/Llama-2-7b-chat-hf` model for conversation
 
 4. Choose the `chatbot_1_0_0.ipynb` file from the cloned repository on your local machine.
 
-## Hugging Face Access Token
+### Hugging Face Access Token
 
 Before you can fully utilize the chatbot, you'll need a Hugging Face access token. This token allows you to access certain models from the Hugging Face model hub. Here's how to obtain it:
 
