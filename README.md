@@ -1,6 +1,6 @@
 # Llama 2 Lang Chain Chatbot
 
-This repository contains a chatbot demonstration built using the `Llama 2` model and the `LangChain` framework, implemented within a Jupyter Notebook. **This demonstration showcases how to set up a functional Llama 2 chatbot in less than 100 lines of code.**
+This repository contains a chatbot demonstration built using the `Llama 2` model and the `LangChain` framework, implemented within a Jupyter Notebook. **This demonstration shows how to set up a Llama 2 chatbot in about 100 lines of code.**
 
 ## Description
 
@@ -27,7 +27,8 @@ Before you can fully utilize the chatbot, you'll need a Hugging Face access toke
 1. Create an account or sign in to [Hugging Face](https://huggingface.co/join).
 2. Navigate to your profile settings.
 3. Under the **Access Tokens** section, you'll find your token. If you don't see a token, you can generate a new one.
-4. Copy the token and replace the placeholder `HF_ACCESS_TOKEN` in the notebook with your actual token.
+4. Copy the token and replace the placeholder `HF_ACCESS_TOKEN` in the `.env_template`.
+5. Rename `.env_template` to `.env`.
 
 **Note**: Always keep your access tokens secret. Do not share your notebook with the token visible to others.
 
