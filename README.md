@@ -1,4 +1,4 @@
-# Llama 2 Lang Chain Chatbot
+# Llama 2 LangChain Chatbot
 
 This repository contains a chatbot demonstration built using the `Llama 2` model and the `LangChain` framework, implemented within a Jupyter Notebook. **This demonstration shows how to set up a Llama 2 chatbot in about 100 lines of code.**
 
