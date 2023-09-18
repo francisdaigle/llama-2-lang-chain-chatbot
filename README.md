@@ -4,7 +4,7 @@ This repository contains a chatbot demonstration built using the `Llama 2` model
 
 ## Description
 
-This chatbot utilizes the `meta-llama/Llama-2-7b-chat-hf` model for conversational purposes. By accessing and running cells within `chatbot_1_0_0.ipynb` on Google Colab, users can initialize and interact with the chatbot in real-time. This simple demonstration is designed to provide an effective and concise example of leveraging the power of the Llama 2 model for chatbot applications.
+This chatbot utilizes the `meta-llama/Llama-2-7b-chat-hf` model for conversational purposes. By accessing and running cells within `chatbot.ipynb` on Google Colab, users can initialize and interact with the chatbot in real-time. This simple demonstration is designed to provide an effective and concise example of leveraging the power of the Llama 2 model for chatbot applications.
 
 ## Setup on Google Colab
 
@@ -18,7 +18,7 @@ This chatbot utilizes the `meta-llama/Llama-2-7b-chat-hf` model for conversation
 
 3. Click on `File > Upload notebook`.
 
-4. Choose the `chatbot_1_0_0.ipynb` file from the cloned repository on your local machine.
+4. Choose the `chatbot.ipynb` file from the cloned repository on your local machine.
 
 ### Hugging Face Access Token
 
@@ -30,7 +30,7 @@ Before you can fully utilize the chatbot, you'll need a Hugging Face access toke
 4. Copy the token and replace the placeholder `HF_ACCESS_TOKEN` in the `.env_template`.
 5. Rename `.env_template` to `.env`.
 
-**Note**: Always keep your access tokens secret. Do not share your notebook with the token visible to others.
+**Note**: If you're looking to keep things simple, you can add your token directly to the notebook by replacing `os.getenv('HF_ACCESS_TOKEN')` with your HF access token. However, always remember to keep your access tokens confidential. Never share your notebook with the token visible, as this poses a security risk.
 
 ### Running the Chatbot on Colab
 
